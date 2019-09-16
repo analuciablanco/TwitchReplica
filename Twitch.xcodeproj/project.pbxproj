@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC67729096C0248F0AEC1EA /* Pods_TwitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D87B48F0E5734516704640 /* Pods_TwitchTests.framework */; };
+		455558D8230CC1E30094E935 /* TablaVideosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455558D7230CC1E30094E935 /* TablaVideosController.swift */; };
+		455558DB230CC8380094E935 /* CeldaVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455558DA230CC8380094E935 /* CeldaVideoController.swift */; };
+		455558DE230CCC920094E935 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455558DD230CCC920094E935 /* Tarea.swift */; };
 		45E1CC77230777280019F00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1CC76230777280019F00A /* AppDelegate.swift */; };
 		45E1CC7C230777280019F00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E1CC7A230777280019F00A /* Main.storyboard */; };
 		45E1CC7E2307772A0019F00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E1CC7D2307772A0019F00A /* Assets.xcassets */; };
@@ -16,6 +20,8 @@
 		45E1CCA72307821C0019F00A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1CCA62307821C0019F00A /* MainController.swift */; };
 		45E1CCA9230787100019F00A /* loginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1CCA8230787100019F00A /* loginButton.swift */; };
 		45E1CCAB23078B910019F00A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1CCAA23078B910019F00A /* LoginController.swift */; };
+		C9D9A5EC609A5CD1558FC99D /* Pods_Twitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1FF817100869BBBB6A311A /* Pods_Twitch.framework */; };
+		DAED9FDCF037BE5BBD0F560D /* Pods_TwitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A175932F2D61792C4C625CB8 /* Pods_TwitchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026745A69617BDC4472D593A /* Pods-TwitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchTests.release.xcconfig"; path = "Target Support Files/Pods-TwitchTests/Pods-TwitchTests.release.xcconfig"; sourceTree = "<group>"; };
+		19E23B5E572AB3CB09333F4A /* Pods-TwitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchTests.debug.xcconfig"; path = "Target Support Files/Pods-TwitchTests/Pods-TwitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31F766899EA8DFFCE04EAC85 /* Pods-TwitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchUITests.debug.xcconfig"; path = "Target Support Files/Pods-TwitchUITests/Pods-TwitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		455558D7230CC1E30094E935 /* TablaVideosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaVideosController.swift; sourceTree = "<group>"; };
+		455558DA230CC8380094E935 /* CeldaVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaVideoController.swift; sourceTree = "<group>"; };
+		455558DD230CCC920094E935 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
 		45E1CC73230777280019F00A /* Twitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E1CC76230777280019F00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E1CC7B230777280019F00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,12 @@
 		45E1CCA62307821C0019F00A /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		45E1CCA8230787100019F00A /* loginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginButton.swift; sourceTree = "<group>"; };
 		45E1CCAA23078B910019F00A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		472D9784D01BD007D004E449 /* Pods-TwitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchUITests.release.xcconfig"; path = "Target Support Files/Pods-TwitchUITests/Pods-TwitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B1FF817100869BBBB6A311A /* Pods_Twitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A6DD01A5938937300ABFC /* Pods-Twitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitch.release.xcconfig"; path = "Target Support Files/Pods-Twitch/Pods-Twitch.release.xcconfig"; sourceTree = "<group>"; };
+		A175932F2D61792C4C625CB8 /* Pods_TwitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A450F62569AD350746272665 /* Pods-Twitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitch.debug.xcconfig"; path = "Target Support Files/Pods-Twitch/Pods-Twitch.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D87B48F0E5734516704640 /* Pods_TwitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D9A5EC609A5CD1558FC99D /* Pods_Twitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC67729096C0248F0AEC1EA /* Pods_TwitchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAED9FDCF037BE5BBD0F560D /* Pods_TwitchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		431B2E18D5879BD32A0E1750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1FF817100869BBBB6A311A /* Pods_Twitch.framework */,
+				C8D87B48F0E5734516704640 /* Pods_TwitchTests.framework */,
+				A175932F2D61792C4C625CB8 /* Pods_TwitchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		455558DC230CCC800094E935 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				455558DD230CCC920094E935 /* Tarea.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		45E1CC6A230777270019F00A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				45E1CC8A2307772A0019F00A /* TwitchTests */,
 				45E1CC952307772A0019F00A /* TwitchUITests */,
 				45E1CC74230777280019F00A /* Products */,
+				CECD8D8167A0490966A3C570 /* Pods */,
+				431B2E18D5879BD32A0E1750 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +142,11 @@
 		45E1CC75230777280019F00A /* Twitch */ = {
 			isa = PBXGroup;
 			children = (
+				455558DC230CCC800094E935 /* Models */,
 				45E1CCAE23078C1F0019F00A /* App */,
 				45E1CCAD23078BFD0019F00A /* Storyboards */,
 				45E1CCAC23078BCA0019F00A /* ViewControllers */,
 				45E1CC7D2307772A0019F00A /* Assets.xcassets */,
-				45E1CCA8230787100019F00A /* loginButton.swift */,
 			);
 			path = Twitch;
 			sourceTree = "<group>";
@@ -133,6 +174,9 @@
 			children = (
 				45E1CCA62307821C0019F00A /* MainController.swift */,
 				45E1CCAA23078B910019F00A /* LoginController.swift */,
+				455558D7230CC1E30094E935 /* TablaVideosController.swift */,
+				45E1CCA8230787100019F00A /* loginButton.swift */,
+				455558DA230CC8380094E935 /* CeldaVideoController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -155,6 +199,19 @@
 			name = App;
 			sourceTree = "<group>";
 		};
+		CECD8D8167A0490966A3C570 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A450F62569AD350746272665 /* Pods-Twitch.debug.xcconfig */,
+				888A6DD01A5938937300ABFC /* Pods-Twitch.release.xcconfig */,
+				19E23B5E572AB3CB09333F4A /* Pods-TwitchTests.debug.xcconfig */,
+				026745A69617BDC4472D593A /* Pods-TwitchTests.release.xcconfig */,
+				31F766899EA8DFFCE04EAC85 /* Pods-TwitchUITests.debug.xcconfig */,
+				472D9784D01BD007D004E449 /* Pods-TwitchUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E1CC9B2307772A0019F00A /* Build configuration list for PBXNativeTarget "Twitch" */;
 			buildPhases = (
+				B2304C1CD349E2818A03AF32 /* [CP] Check Pods Manifest.lock */,
 				45E1CC6F230777280019F00A /* Sources */,
 				45E1CC70230777280019F00A /* Frameworks */,
 				45E1CC71230777280019F00A /* Resources */,
+				A007BF07AA7182CCBDE7296C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E1CC9E2307772A0019F00A /* Build configuration list for PBXNativeTarget "TwitchTests" */;
 			buildPhases = (
+				A25CB03F7C2353770B6E67DC /* [CP] Check Pods Manifest.lock */,
 				45E1CC832307772A0019F00A /* Sources */,
 				45E1CC842307772A0019F00A /* Frameworks */,
 				45E1CC852307772A0019F00A /* Resources */,
@@ -197,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E1CCA12307772A0019F00A /* Build configuration list for PBXNativeTarget "TwitchUITests" */;
 			buildPhases = (
+				727D4305B09FA0814CF905C9 /* [CP] Check Pods Manifest.lock */,
 				45E1CC8E2307772A0019F00A /* Sources */,
 				45E1CC8F2307772A0019F00A /* Frameworks */,
 				45E1CC902307772A0019F00A /* Resources */,
@@ -281,11 +342,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		727D4305B09FA0814CF905C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A007BF07AA7182CCBDE7296C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twitch/Pods-Twitch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twitch/Pods-Twitch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twitch/Pods-Twitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25CB03F7C2353770B6E67DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2304C1CD349E2818A03AF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45E1CC6F230777280019F00A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455558D8230CC1E30094E935 /* TablaVideosController.swift in Sources */,
+				455558DE230CCC920094E935 /* Tarea.swift in Sources */,
+				455558DB230CC8380094E935 /* CeldaVideoController.swift in Sources */,
 				45E1CCA72307821C0019F00A /* MainController.swift in Sources */,
 				45E1CCAB23078B910019F00A /* LoginController.swift in Sources */,
 				45E1CC77230777280019F00A /* AppDelegate.swift in Sources */,
@@ -462,6 +612,7 @@
 		};
 		45E1CC9C2307772A0019F00A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A450F62569AD350746272665 /* Pods-Twitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +630,7 @@
 		};
 		45E1CC9D2307772A0019F00A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888A6DD01A5938937300ABFC /* Pods-Twitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +648,7 @@
 		};
 		45E1CC9F2307772A0019F00A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E23B5E572AB3CB09333F4A /* Pods-TwitchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		45E1CCA02307772A0019F00A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026745A69617BDC4472D593A /* Pods-TwitchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +690,7 @@
 		};
 		45E1CCA22307772A0019F00A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F766899EA8DFFCE04EAC85 /* Pods-TwitchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +710,7 @@
 		};
 		45E1CCA32307772A0019F00A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472D9784D01BD007D004E449 /* Pods-TwitchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
